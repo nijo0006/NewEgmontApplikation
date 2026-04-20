@@ -1,8 +1,8 @@
 {
-  "name": "${PROJECT_NAME}",
+  "name": "NewEgmontApplikation",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "java.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
