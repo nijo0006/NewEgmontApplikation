@@ -63,20 +63,28 @@ h1 {
 }
 
 .section {
-    min-height: 100vh; /* min-height så indhold ikke klemmes */
+    min-height: 100vh;
     text-align: center;
-    padding: 40px;
+    padding: 60px 40px 80px; /* mere padding top og bund */
     box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 /* ── SLIDER ── */
 .slider {
     position: relative;
     max-width: 500px;
+    width: 100%;
     margin: auto;
-    padding: 0 40px; /* plads til pile indeni — virker på alle skærme */
+    padding: 0 40px;
     box-sizing: border-box;
-    min-height: 450px;
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .slide {
